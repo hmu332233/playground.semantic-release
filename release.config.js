@@ -7,6 +7,11 @@ module.exports = {
     "@semantic-release/commit-analyzer",        // 커밋 메시지 분석
     "@semantic-release/release-notes-generator", // 릴리스 노트 생성
     "@semantic-release/changelog",              // CHANGELOG.md 생성
-    "@semantic-release/git",                    // 변경된 파일 커밋
+    [
+      "@semantic-release/git",
+      {
+        "message": "chore(release): ${nextRelease.version}"
+      }
+    ], // 변경된 파일 커밋
   ],
 };
