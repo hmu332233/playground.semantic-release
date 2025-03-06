@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "semantic-release": "semantic-release"
+    "semantic-release": "GIT_AUTHOR_NAME=minungHan; GIT_AUTHOR_EMAIL=hmu332233@gmail.com; semantic-release"
   },
   "keywords": [],
   "author": "",
   "dependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "semantic-release": "^24.2.3"
   }
 }
