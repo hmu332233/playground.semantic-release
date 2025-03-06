@@ -1,0 +1,32 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    # 수동 실행을 위한 설정 유지
+
+permissions:
+  contents: read # for checkout
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    
+    # custom/main 브랜치에서만 실행되도록 조건 추가
+    if: github.ref == 'refs/heads/custom/main'
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_AUTHOR_NAME: minungHan
+          GIT_AUTHOR_EMAIL: hmu332233@gmail.com
+        run: npx semantic-release
