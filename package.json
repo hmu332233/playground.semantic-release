@@ -1,7 +1,7 @@
 {
   "name": "playground.semantic-release",
   "version": "1.0.0",
-  "description": "",
+  "description": "적당한 수정사항",
   "main": "index.js",
   "scripts": {
     "semantic-release": "semantic-release"
