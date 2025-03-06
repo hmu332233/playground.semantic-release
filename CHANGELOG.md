@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/hmu332233/playground.semantic-release/compare/v1.1.0...v1.2.0) (2025-03-06)
+
+
+### Features
+
+* 자동 배포를 위한 release message 변경 ([4392a0f](https://github.com/hmu332233/playground.semantic-release/commit/4392a0fe5fe9dfb58c5034fc620c76bec312cf3f))
+
 # [1.1.0](https://github.com/hmu332233/playground.semantic-release/compare/v1.0.0...v1.1.0) (2025-03-06)
 
 
