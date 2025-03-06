@@ -24,6 +24,21 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "lts/*"
+
+      # 3. npm 캐시 설정
+      - name: Cache npm dependencies
+        uses: actions/cache@v3
+        id: npm-cache
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-semantic-release-${{ hashFiles('**/package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-semantic-release-
+
+      # 4. semantic-release 관련 의존성만 설치
+      - name: Install semantic-release dependencies
+        run: npm install @semantic-release/git @semantic-release/changelog -D
+
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
