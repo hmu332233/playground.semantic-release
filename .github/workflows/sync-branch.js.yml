@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - custom/main
+  workflow_run:
+    workflows: ["Release"]  # 다른 워크플로우의 name
+    types:
+      - completed
+    branches:
+      - custom/main
 
 jobs:
   merge-to-develop:
