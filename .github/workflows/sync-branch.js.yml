@@ -1,0 +1,45 @@
+name: Merge Master to Develop
+
+on:
+  push:
+    branches:
+      - custom/main
+
+jobs:
+  merge-to-develop:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # 1. 저장소 체크아웃
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        
+    # 2. Git 설정
+    - name: Set up Git config
+      run: |
+        git config user.name "minung.han"
+        git config user.email "hmu332233@gmail.com"
+        
+    # 3. 머지 시도 및 충돌 체크
+    - name: Try merge master into develop
+      id: merge
+      run: |
+        git checkout custom/develop
+        if git merge custom/main --no-edit; then
+          echo "Merge successful"
+          git push origin custom/develop
+          echo "success=true" >> $GITHUB_OUTPUT
+        else
+          echo "Merge conflict detected"
+          git merge --abort
+          echo "success=false" >> $GITHUB_OUTPUT
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    # 4. 충돌 발생시 에러 핸들링
+    - name: Check Merge conflict
+      if: steps.merge.outputs.success == 'false'
+      run: exit 1  # 실패 상태로 종료 / 추후 slack 알림 등으로 변경
