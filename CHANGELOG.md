@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/hmu332233/playground.semantic-release/compare/v1.2.0...v1.3.0) (2025-03-06)
+
+
+### Features
+
+* sync 트리거 테스트 ([#6](https://github.com/hmu332233/playground.semantic-release/issues/6)) ([61cef4b](https://github.com/hmu332233/playground.semantic-release/commit/61cef4b502929e62090b239c7a6ec8eed8aaa1fc))
+
 # [1.2.0](https://github.com/hmu332233/playground.semantic-release/compare/v1.1.0...v1.2.0) (2025-03-06)
 
 
