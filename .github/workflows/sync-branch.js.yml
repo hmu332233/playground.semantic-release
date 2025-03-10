@@ -33,6 +33,7 @@ jobs:
       id: merge
       run: |
         git checkout custom/develop
+        git pull origin custom/develop
         if git merge custom/main --no-edit; then
           echo "Merge successful"
           git push origin custom/develop
