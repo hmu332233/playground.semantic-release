@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.9.0](https://github.com/hmu332233/playground.semantic-release/compare/v1.8.0...v1.9.0) (2025-03-11)
+
+
+### Features
+
+* release please 수정 ([72606f9](https://github.com/hmu332233/playground.semantic-release/commit/72606f93587495a18d2185cc38ba129f6c913e2d))
+* release please 수정 ([d260698](https://github.com/hmu332233/playground.semantic-release/commit/d26069816bcaab26d2684cba362f504c89ccc26d))
+* 적당한 수정사항 ([225d47a](https://github.com/hmu332233/playground.semantic-release/commit/225d47a4220d8a101655cd157b2f4298d0a452ed))
+
 ## [1.8.0](https://github.com/hmu332233/playground.semantic-release/compare/v1.7.0...v1.8.0) (2025-03-11)
 
 
