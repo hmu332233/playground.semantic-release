@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/hmu332233/playground.semantic-release/compare/v1.6.0...v1.7.0) (2025-03-11)
+
+
+### Features
+
+* 0311 - 1 ([96f80e0](https://github.com/hmu332233/playground.semantic-release/commit/96f80e0b5415e3284da7ff5efc837ea2dc775658))
+
 ## [1.6.0](https://github.com/hmu332233/playground.semantic-release/compare/v1.5.0...v1.6.0) (2025-03-11)
 
 
