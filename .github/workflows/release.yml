@@ -2,9 +2,9 @@ name: Release
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - custom/main
+  # push:
+  #   branches:
+  #     - custom/main
 
 permissions:
   contents: write  # 버전 태그를 push하기 위해 필요
