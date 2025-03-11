@@ -49,6 +49,7 @@ jobs:
         run: npx semantic-release
   merge-to-develop:
     runs-on: ubuntu-latest
+    needs: release
     
     steps:
     # 1. 저장소 체크아웃
