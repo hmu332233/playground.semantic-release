@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/hmu332233/playground.semantic-release/compare/aidt.v1.1.1...aidt.v1.1.2) (2025-03-11)
+
+
+### Bug Fixes
+
+* sync 이후에만 develop sync가 동작하도록 변경 ([#34](https://github.com/hmu332233/playground.semantic-release/issues/34)) ([f1e26d4](https://github.com/hmu332233/playground.semantic-release/commit/f1e26d42c35c2f8efafdbacbf93269cce2e4d80a))
+
 ## [1.1.1](https://github.com/hmu332233/playground.semantic-release/compare/aidt.v1.1.0...aidt.v1.1.1) (2025-03-11)
 
 
