@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/hmu332233/playground.semantic-release/compare/aidt.v1.1.0...aidt.v1.1.1) (2025-03-11)
+
+
+### Bug Fixes
+
+* 적당한 hotfix ([508a948](https://github.com/hmu332233/playground.semantic-release/commit/508a948b8ea153d116ef7c255b0e7e508cca9b9d))
+* 적당한 hotfix ([#33](https://github.com/hmu332233/playground.semantic-release/issues/33)) ([a6940bf](https://github.com/hmu332233/playground.semantic-release/commit/a6940bf07299f3ebb707e857fe0c471bd45304a5))
+
 # [1.1.0](https://github.com/hmu332233/playground.semantic-release/compare/aidt.v1.0.0...aidt.v1.1.0) (2025-03-11)
 
 
