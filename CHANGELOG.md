@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/hmu332233/playground.semantic-release/compare/aidt.v1.2.2...aidt.v1.3.0) (2025-03-11)
+
+
+### Features
+
+* 적당한 수정 ([1af072b](https://github.com/hmu332233/playground.semantic-release/commit/1af072bee2656e3deda9750d1d3d8bbbb408aa60))
+* 적당한 수정 ([#39](https://github.com/hmu332233/playground.semantic-release/issues/39)) ([d71106c](https://github.com/hmu332233/playground.semantic-release/commit/d71106cac7f2f02b3de395e9f506c5e04b016bc1))
+
 ## [1.2.2](https://github.com/hmu332233/playground.semantic-release/compare/aidt.v1.2.1...aidt.v1.2.2) (2025-03-11)
 
 
