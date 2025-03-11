@@ -2,9 +2,9 @@ name: release-please
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - custom/main
+  # push:
+  #   branches:
+  #     - custom/main
 
 permissions:
   contents: write
