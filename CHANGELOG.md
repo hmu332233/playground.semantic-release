@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/hmu332233/playground.semantic-release/compare/aidt.v1.1.2...aidt.v1.2.0) (2025-03-11)
+
+
+### Features
+
+* 머지 시도시 origin을 머지한 상태로 진행되도록 변경 ([ec857c7](https://github.com/hmu332233/playground.semantic-release/commit/ec857c73904991598bc185b2f28259d5f065960c))
+* 머지 시도시 origin을 머지한 상태로 진행되도록 변경 ([#35](https://github.com/hmu332233/playground.semantic-release/issues/35)) ([06df29f](https://github.com/hmu332233/playground.semantic-release/commit/06df29f169fd7a773a7958989e7510c6c9c23326))
+
 ## [1.1.2](https://github.com/hmu332233/playground.semantic-release/compare/aidt.v1.1.1...aidt.v1.1.2) (2025-03-11)
 
 
