@@ -2,7 +2,9 @@ name: Release
 
 on:
   workflow_dispatch:
-    # 수동 실행을 위한 설정 유지
+  push:
+    branches:
+      - custom/main
 
 permissions:
   contents: write  # 버전 태그를 push하기 위해 필요
