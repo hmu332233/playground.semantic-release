@@ -1,3 +1,13 @@
+# [1.4.0](https://github.com/hmu332233/playground.semantic-release/compare/v1.3.0...v1.4.0) (2025-03-11)
+
+
+### Features
+
+* release please 셋팅 ([#9](https://github.com/hmu332233/playground.semantic-release/issues/9)) ([a0ecd76](https://github.com/hmu332233/playground.semantic-release/commit/a0ecd76b606964e5f8dd07de62befdc044a4e7d9))
+* release please 추가 ([#8](https://github.com/hmu332233/playground.semantic-release/issues/8)) ([f1d31e2](https://github.com/hmu332233/playground.semantic-release/commit/f1d31e268c583aedcc5a243e57a115734f4d7174))
+* 적당한 수정사항 ([#11](https://github.com/hmu332233/playground.semantic-release/issues/11)) ([c3e393e](https://github.com/hmu332233/playground.semantic-release/commit/c3e393e54c0859d3502ece46f7cbd6f49162d6f7))
+* 테스트 ([#14](https://github.com/hmu332233/playground.semantic-release/issues/14)) ([11b3cc6](https://github.com/hmu332233/playground.semantic-release/commit/11b3cc63b7c9697102ea3dae076b77d62a4e435f))
+
 # Changelog
 
 ## [1.5.0](https://github.com/hmu332233/playground.semantic-release/compare/v1.4.0...v1.5.0) (2025-03-10)
