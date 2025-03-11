@@ -2,9 +2,9 @@ name: Merge Master to Develop
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - custom/main
+  # push:
+  #   branches:
+  #     - custom/main
       
 jobs:
   merge-to-develop:
