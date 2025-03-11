@@ -12,6 +12,7 @@ module.exports = {
       {
         "message": "chore(release): ${nextRelease.version}"
       }
-    ], // 변경된 파일 커밋
+    ],
   ],
+  tagFormat: 'aidt.v${version}',
 };
