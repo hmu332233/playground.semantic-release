@@ -24,3 +24,4 @@ jobs:
           # for more options
           release-type: node
           target-branch: custom/main
+          skip-github-release: true
