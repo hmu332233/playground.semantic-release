@@ -68,8 +68,15 @@ jobs:
     - name: Try merge master into develop
       id: merge
       run: |
-        git checkout custom/develop
-        git pull origin custom/develop
+        # custom/main 최신화
+        git checkout custom/main || exit 1
+        git pull origin custom/main || exit 1
+    
+        # custom/develop 최신화
+        git checkout custom/develop || exit 1
+        git pull origin custom/develop || exit 1
+
+        # merge
         if git merge custom/main --no-edit; then
           echo "Merge successful"
           git push origin custom/develop
