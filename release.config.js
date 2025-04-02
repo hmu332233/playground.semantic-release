@@ -8,6 +8,12 @@ module.exports = {
     "@semantic-release/release-notes-generator", // 릴리스 노트 생성
     "@semantic-release/changelog",              // CHANGELOG.md 생성
     [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false,
+      }
+    ],
+    [
       "@semantic-release/git",
       {
         "message": "chore(release): ${nextRelease.version}"
