@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com-hmu/hmu332233/playground.semantic-release/compare/aidt.v1.3.0...aidt.v1.4.0) (2025-04-02)
+
+
+### Features
+
+* package 버전 변경 ([8b9ab05](https://github.com-hmu/hmu332233/playground.semantic-release/commit/8b9ab053b56d0ab611fd6b73d86e7322c5a90fa5))
+
 # [1.3.0](https://github.com/hmu332233/playground.semantic-release/compare/aidt.v1.2.2...aidt.v1.3.0) (2025-03-11)
 
 
